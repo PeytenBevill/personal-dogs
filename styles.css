@@ -1,0 +1,63 @@
+body {
+  margin: 1%;
+  display: block;
+  font-family: "Noto Sans Nandinagari", sans-serif;
+  background-color: rgb(111, 135, 158);
+  margin-bottom: 2%;
+}
+.xander, .tex {
+  width: 150px;
+}
+.top {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.top h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 32px;
+}
+
+.container {
+  margin: 0% 16% 0% 16%;
+}
+
+.faq-item {
+  margin-bottom: 3%;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgb(209, 209, 209);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1%;
+}
+
+.faq-answer {
+  display: none;
+}
+.faq-answer.show {
+  display: block;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 1%;
+}
+
+.sch {
+  margin-left: 4%;
+}
+
+@media (max-width: 400px) {
+  .xander, .tex{
+    width: 50px;
+  }
+  .top h1 {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+}
